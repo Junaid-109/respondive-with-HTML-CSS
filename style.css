@@ -1,0 +1,417 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1e1c2a;
+    color: #fff;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    
+}
+header{
+    background-color: #1e1c2a;
+}
+
+
+.nav1 ul,
+.nav2 ul{
+    list-style: none;
+}
+.nav2 ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav2 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav1 ul li{
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    color: #ff702a;
+}
+.nav2 ul li a:hover {
+    color: #ff702a;
+    cursor: pointer;
+}
+.mshow{
+    display: none;
+}
+
+/* =======================================HOME============================================= */
+.home{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.home1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home1 h1{
+    font-size: 4.5rem;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 900;
+}
+.home p{
+    font-family: 'Indie Flower', cursive;
+
+    font-size: 35px;
+}
+
+.homeimg img{
+    width: 100%;
+}
+
+
+/* ========================================About===================================== */
+
+
+.cpadding{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.aboutimg img{
+    width: 100%;
+    object-fit: fill;
+
+}
+
+.divcentext{
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutbutton{
+    background-color: #ff702a;
+    color: #fff;
+}
+.aboutbutton:hover {
+    color: #1e1c2a;
+    background-color: #ff702a;
+}
+
+/* ===================================MENU======================================= */
+
+.m-head{
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.m-head h2{
+    text-align: center;
+    
+}
+.mbox{
+    /* height: 424px; */
+}
+.space{
+    /* margin: 1rem; */
+    background-color: #FEEFE8;
+    color: black;
+    border-radius: 10px;
+    
+}
+.space:hover{
+    box-shadow: rgba(21, 124, 202, 0.651) 0px 1px 2px 0px, rgba(226, 229, 231, 0.425) 0px 2px 6px 2px;
+}
+.space img{
+    padding-top: 1rem;
+}
+.hhh{
+    height: 100%;
+    width: 100%;
+}
+.hhh img{
+    width: 90%;
+}
+.space h3{
+    padding-top: 1rem;
+    font-weight: 500;
+}
+.space p{
+    font-size: 19px;
+    
+
+}
+.space div{
+    font-size: 20px ;
+    padding-bottom: 1rem;
+    color: #ff702a;
+}
+.hoveraff{
+    background: linear-gradient(#FEEFE8, #FEEFE8 50%, #2ecc71 50%, #2ecc71);
+    background-size: 100% 200%;
+  /*trasition effect for background*/
+  transition: background 2s;
+}
+.hoveraff:hover {
+    background-position: 100% 100%;
+}
+.bbb{
+    margin-bottom: 3rem;
+}
+.extra{
+    margin-bottom: 4rem;
+}
+/* ===============================SERVICIS=============================== */
+.scontainer{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.sh2{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.Scol .simg img{
+    width: 30%;
+}
+.Scol h3{
+    color: #ff702a;
+    font-size: 25px;
+}
+
+/* ===========================CONTACT===================== */
+
+.c-container{
+    
+    color: #1e1c2a;
+    text-align: center;
+    padding-bottom: 1rem;
+    
+}
+.c-container h2{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.c-space{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: #FEEFE8;
+    padding-bottom: 1rem;
+    border-radius: 20px;
+}
+.c-space:hover{
+    box-shadow: rgba(245, 229, 10, 0.651) 0px 3px 8px;
+}
+.hoverleft{
+    background: linear-gradient(to right, #2ecc71 50%, #FEEFE8 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 1.5s ease-out;
+}
+.hoverleft:hover {
+    background-position: left bottom;
+}
+
+
+
+
+/* ================================FOOTER================================= */
+
+.f-container{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul li{
+    list-style: none;
+}
+footer ul li{
+    font-weight: 200;
+}
+footer ul li:first-child{
+    font-weight: 600;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+footer ul li a:hover{
+    font-weight: 400;
+}
+.footicon{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 1rem;
+    
+    /* border: 1px solid yellow; */
+}
+.footicon i{
+    background-color: #ff702a;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+/* ============================TABLET SIZE===================== */
+
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+
+    .home1 h1{
+        font-size: 3.5rem;
+        font-family: 'Indie Flower', cursive;
+        font-weight: 900;
+    }
+    .home p{
+        font-family: 'Indie Flower', cursive;
+    
+        font-size: 25px;
+    }
+
+    .space{
+        margin: 2px;
+        padding: 3px;
+        
+    }
+    .mbox{
+        height: 424px;
+    }
+    .m-head{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+
+    .c-space{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        background-color: #FEEFE8;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================Mobile Size============================= */
+@media only screen and (max-width: 575px) and (min-width: 1px)  {
+
+    .home{
+        text-align: center;
+    }
+    .home1 h1{
+        font-size: 3rem;
+        font-family: 'Indie Flower', cursive;
+        font-weight: 900;
+    }
+    .home p{
+        font-family: 'Indie Flower', cursive;
+    
+        font-size: 25px;
+    }
+    .homeimg{
+        padding-top: 1rem;
+    }
+
+    .handmake{
+        display: none;
+    }
+    .mshow{
+        display: contents;
+    }
+    .nav-item a:hover{
+        color: #ff702a;
+    }
+
+    /* ==========ABOUT=========== */
+
+    .aboutimg img{
+        width: 70%;
+    
+    }
+
+    .divcentext{
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    /* ==========menu============= */
+    .cpadding{
+        padding-top: 2rem;
+    }
+
+    .m-head{
+        margin-top: 2rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+    .hhh img{
+        width: 50% ;important
+    }
+    .space h3{
+        padding-top: 0;
+    }
+    .mbox{
+        margin-top: 1rem;
+    }
+
+    /* =========SERVICIS=============== */
+
+    .Scol .simg img{
+        width: 20%;
+    }
+    .gap-4{
+        padding: 1rem 1rem;
+    }
+    .scontainer{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+   
+
+     /* =========CONTACT================ */
+
+    .c-space{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        background-color: #FEEFE8;
+    }
+      
+    
+    .none{
+        display: none;
+    }
+
+
+
+    
+}
